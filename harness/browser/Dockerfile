@@ -1,7 +1,7 @@
 # browser-harness com Chromium próprio, exposto como servidor MCP (HTTP) pelo mcp-proxy.
 FROM python:3.12-slim
 RUN apt-get update && apt-get install -y --no-install-recommends chromium fonts-liberation fonts-noto-color-emoji \
-    tini curl ca-certificates tzdata && rm -rf /var/lib/apt/lists/*
+    git tini curl ca-certificates tzdata && rm -rf /var/lib/apt/lists/*
 ARG BH_REF=main
 RUN pip install --no-cache-dir "browser-harness[mcp] @ git+https://github.com/browser-use/browser-harness@${BH_REF}" mcp-proxy
 ENV TZ=America/Sao_Paulo PYTHONUNBUFFERED=1 \
