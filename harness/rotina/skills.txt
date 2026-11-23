@@ -1,0 +1,7 @@
+# pasta  url  — skills e harness usados com o Claude (espelho atualizado todo dia)
+claude-seo             https://github.com/AgriciDaniel/claude-seo
+claude-video           https://github.com/bradautomates/claude-video
+impeccable             https://github.com/pbakaus/impeccable
+ui-ux-pro-max-skill    https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+browser-harness        https://github.com/browser-use/browser-harness
+async-search-scraper   https://github.com/djairrotta/async-search-scraper

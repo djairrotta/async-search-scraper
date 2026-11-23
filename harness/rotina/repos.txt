@@ -1,0 +1,6 @@
+# vault  url  [ramo]   — um vault do Obsidian por programa
+async-search-scraper   https://github.com/djairrotta/async-search-scraper
+site-djairrotta-adv    https://github.com/djairrotta/site-djairrotta-adv
+datagateway-front      https://github.com/djairrotta/datagateway-front
+peritobancario         https://github.com/djairrotta/peritobancario
+browser-harness        https://github.com/browser-use/browser-harness
